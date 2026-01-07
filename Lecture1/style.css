@@ -1,0 +1,22 @@
+/* h1 {
+    font-size: smaller;
+    text-align: center;
+}
+
+
+p {
+    color:red
+} */
+
+#instagram {
+    color:maroon
+}
+
+.laptop {
+    background-color: orange;
+
+}
+
+p,article {
+    width:500px
+}

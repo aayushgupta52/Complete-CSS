@@ -1,0 +1,43 @@
+/* block element */
+/* div */
+/* p */
+/* h1 */
+
+* {
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+/* div {
+    border:1px solid red;
+    width:100px;
+    height:200px;
+    background-color: green;
+    margin:30px;
+    padding:100px;
+
+} */
+
+
+/* box sizing border box*/
+
+.box {
+    width:300px;
+    height:300px;
+    padding: 20px;
+    border:1px solid black
+}
+
+/* inline elements doesnt allow custom width and custom height */
+/* margins are also not applied in inline elements */
+/* padding are applied in the inline elements */
+/* we can coverst the inline elements to block elements by simplying giving display block elements  */
+
+span {
+    border: 2px solid black;
+    margin: 20px;
+    padding:20px;
+    display: block;
+
+}

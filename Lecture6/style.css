@@ -1,0 +1,44 @@
+.box {
+    width:25%;
+    border:2px solid black;
+ 
+}
+
+
+.parent {
+    background-color: pink;
+    border:1px solid black;
+    
+}
+
+.child {
+ background-color: red;
+ width:25%;
+}
+
+
+/* vh , vw */
+
+.laptop {
+    background-color: green;
+    width: 20vw;
+    height:100vh;
+}
+
+/* em unit in css  */
+
+.g {
+    font-size: 10px;
+}
+
+.h {
+    font-size: 5rem;
+}
+
+
+/* rem property in css */
+
+.football {
+    border:1px solid black;
+    font-size: 6rem;
+}

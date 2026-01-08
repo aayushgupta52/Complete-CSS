@@ -1,0 +1,59 @@
+/* box model in css */
+
+* {
+    padding: 0;
+    margin:0;
+}
+
+h1 {
+    background-color: pink;
+    /* border-style:solid
+    border-width:100px
+    border-color:grey */
+
+    /* short hand notation */
+
+    border: solid black 2px;
+    border-radius: 5px;
+    border-top-left-radius: 2px;
+    border-top-right-radius: 6px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 12px;
+    width:350px;
+    padding: 40px;
+    margin: 100px;
+    margin-top: 20px;
+}
+
+
+#first {
+    background-color: yellow;
+    border:solid black 2px;
+    width: 350px;
+    margin-left: 20px;
+    padding:20px;
+    margin-right: 40px;
+}
+
+
+
+#second {
+    background-color:green;
+     border:solid black 2px;
+    width: 350px;
+
+}
+
+#third {
+    background-color: hotpink;
+    border:solid black 2px;
+    width:350px; 
+}
+
+
+/* box model contains 4 elements  */
+/* content */
+/* padding */
+/* border */
+/* margin */
+

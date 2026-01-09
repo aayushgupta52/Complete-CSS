@@ -1,0 +1,34 @@
+/* float vs clear */
+
+#img1 {
+    float:right;
+    height: 200px;   
+}
+
+#img2 {
+    clear:left;
+    height:200px;
+}
+
+.box {
+    overflow: auto;
+    border:1px solid black;
+    
+}
+
+.item{
+    background-color: lightblue;
+    border:1px solid black;
+    width: 300px;
+    float: left;
+    height:300px;
+}
+
+
+.container {
+    width: 500px;
+    height: 500px;
+    border:1px solid black;
+    overflow:scroll;
+
+}
